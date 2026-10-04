@@ -37,11 +37,11 @@ def latest_circuit(events: list[dict]) -> list[str]:
 
 st.set_page_config(page_title="CircuitLab", layout="wide")
 st.title("CircuitLab")
-st.caption("Agents hunting for the circuit behind a behavior in GPT-2 small. Live view of the research record.")
+st.caption("Agents hunting for the circuit behind a behavior in GPT-2 small. Replay of the recorded research runs (pick one in the sidebar).")
 
 records = sorted(HERE.glob("research_record*.jsonl"))
 names = [p.name for p in records] or ["research_record.jsonl"]
-default = names.index("research_record.jsonl") if "research_record.jsonl" in names else 0
+default = names.index("research_record_run1.jsonl") if "research_record_run1.jsonl" in names else 0
 chosen = st.sidebar.selectbox("Run record", names, index=default)
 truth = load_truth()
 
@@ -55,7 +55,7 @@ def live():
 
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Round", max([e.get("round") or 0 for e in events], default=0))
-    c2.metric("Forward passes (logged by agents)", f"{used} / {BUDGET}")
+    c2.metric("Passes in experimentalist records only", f"{used} / {BUDGET}")
     c3.metric("Exhaustive patching", f"{EXHAUSTIVE_PASSES} passes",
               delta=f"{used - EXHAUSTIVE_PASSES:+d} passes for the agents", delta_color="inverse")
     if truth:

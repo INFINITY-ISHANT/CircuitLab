@@ -1,11 +1,1 @@
-# 4.0 removed HookedTransformer; retain the requested API.
-# The CUDA 13.0 wheel supports the RTX 5050 in this project environment.
---extra-index-url https://download.pytorch.org/whl/cu130
-transformer-lens==3.9.0
-torch==2.14.1+cu130
-transformers==5.18.0
-numpy
-pandas
-matplotlib
-mcp<2
 streamlit
