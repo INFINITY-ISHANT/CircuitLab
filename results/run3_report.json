@@ -1,0 +1,13 @@
+{
+  "tool_calls": 11,
+  "passes_total": 786,
+  "passes_by_tool": {
+    "ablate": 510,
+    "faithfulness": 12,
+    "random_circuit_control": 132,
+    "patch": 132
+  },
+  "top_senders": [],
+  "circuit": [],
+  "vs_published": null
+}

@@ -1,0 +1,190 @@
+{
+  "task": "ioi",
+  "status": "verified",
+  "source": "arXiv:2211.00593",
+  "heads": [
+    {
+      "layer": 9,
+      "head": 9,
+      "component": "L9H9",
+      "role": "name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 10,
+      "head": 0,
+      "component": "L10H0",
+      "role": "name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 9,
+      "head": 6,
+      "component": "L9H6",
+      "role": "name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 10,
+      "head": 7,
+      "component": "L10H7",
+      "role": "negative_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 11,
+      "head": 10,
+      "component": "L11H10",
+      "role": "negative_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 7,
+      "head": 3,
+      "component": "L7H3",
+      "role": "s_inhibition",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 7,
+      "head": 9,
+      "component": "L7H9",
+      "role": "s_inhibition",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 8,
+      "head": 6,
+      "component": "L8H6",
+      "role": "s_inhibition",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 8,
+      "head": 10,
+      "component": "L8H10",
+      "role": "s_inhibition",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 5,
+      "head": 5,
+      "component": "L5H5",
+      "role": "induction",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 5,
+      "head": 8,
+      "component": "L5H8",
+      "role": "induction",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 5,
+      "head": 9,
+      "component": "L5H9",
+      "role": "induction",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 6,
+      "head": 9,
+      "component": "L6H9",
+      "role": "induction",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 0,
+      "head": 1,
+      "component": "L0H1",
+      "role": "duplicate_token",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 0,
+      "head": 10,
+      "component": "L0H10",
+      "role": "duplicate_token",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 3,
+      "head": 0,
+      "component": "L3H0",
+      "role": "duplicate_token",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 2,
+      "head": 2,
+      "component": "L2H2",
+      "role": "previous_token",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 4,
+      "head": 11,
+      "component": "L4H11",
+      "role": "previous_token",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 10,
+      "head": 10,
+      "component": "L10H10",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 10,
+      "head": 6,
+      "component": "L10H6",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 10,
+      "head": 2,
+      "component": "L10H2",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 10,
+      "head": 1,
+      "component": "L10H1",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 11,
+      "head": 2,
+      "component": "L11H2",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 9,
+      "head": 7,
+      "component": "L9H7",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 9,
+      "head": 0,
+      "component": "L9H0",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    },
+    {
+      "layer": 11,
+      "head": 9,
+      "component": "L11H9",
+      "role": "backup_name_mover",
+      "source": "arXiv:2211.00593 Appendix K Figure 20"
+    }
+  ],
+  "mlps": []
+}

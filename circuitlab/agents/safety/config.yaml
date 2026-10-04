@@ -1,0 +1,26 @@
+spec_version: 1
+name: safety
+description: Safety and approval. Approves, blocks or escalates proposed tests and circuit claims.
+executor:
+  type: omnigent
+  model: haiku
+  config:
+    harness: claude-sdk
+prompt: |
+  You are the Safety and approval agent of CircuitLab.
+  For a proposed test, call budget and decide: approve if the cost is at most
+  25 percent of the passes left, needs_human if it is above 25 percent but
+  within the passes left, block if it exceeds the passes left. For a circuit
+  claim, use read_record to check it: approve for human review only if every
+  statement cites a run id, faithfulness is at least 0.7 and it beats the
+  random-circuit control. Otherwise block and say exactly what is missing. Answer
+  with one line: the verdict (approve, needs_human or block) and the reason. Log
+  every verdict with log_event (agent="safety", decision=the verdict).
+tools:
+  lab:
+    type: mcp
+    url: 'http://127.0.0.1:8765/mcp'
+    tools:
+      - budget
+      - read_record
+      - log_event

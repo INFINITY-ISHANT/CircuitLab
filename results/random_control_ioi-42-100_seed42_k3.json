@@ -1,0 +1,406 @@
+{
+  "beats_random": true,
+  "candidate_circuit": [
+    "L9H6",
+    "L9H9",
+    "L10H0"
+  ],
+  "candidate_faithfulness": 0.8826946190913808,
+  "candidate_result": {
+    "budget_snapshot": {
+      "by_operation": {
+        "ablation.clean_baseline": 2,
+        "ablation.mean_head_replacement": 4,
+        "ablation.reference_cache_corrupted": 2,
+        "baseline.clean": 4,
+        "faithfulness.cache_clean": 52,
+        "faithfulness.circuit_patch": 52,
+        "faithfulness.corrupted_baseline": 52,
+        "patching.sweep.cache_clean": 10,
+        "patching.sweep.cache_corrupted": 10,
+        "patching.sweep.head_replacement": 22,
+        "path_patching.cache_clean": 16,
+        "path_patching.corrupted_baseline": 16,
+        "path_patching.receiver_evaluation": 48,
+        "path_patching.sender_bridge_cache": 16
+      },
+      "max_passes": 5000,
+      "passes_left": 4694,
+      "passes_used": 306
+    },
+    "circuit": [
+      "L9H6",
+      "L9H9",
+      "L10H0"
+    ],
+    "circuit_patched_logit_diff": 2.0215752124786377,
+    "clean_logit_diff": 2.763347864151001,
+    "corrupted_logit_diff": -3.560084581375122,
+    "faithfulness": 0.8826946190913808,
+    "forward_passes": 6,
+    "n": 100
+  },
+  "dataset_id": "ioi-42-100",
+  "n_random": 10,
+  "percentile": 100.0,
+  "random_mean": 0.027464432137697354,
+  "random_results": [
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 54,
+          "faithfulness.circuit_patch": 54,
+          "faithfulness.corrupted_baseline": 54,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4688,
+        "passes_used": 312
+      },
+      "circuit": [
+        "L0H1",
+        "L3H4",
+        "L9H0"
+      ],
+      "circuit_patched_logit_diff": -3.466304063796997,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 0.014830634846818904,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 56,
+          "faithfulness.circuit_patch": 56,
+          "faithfulness.corrupted_baseline": 56,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4682,
+        "passes_used": 318
+      },
+      "circuit": [
+        "L0H6",
+        "L10H9",
+        "L11H11"
+      ],
+      "circuit_patched_logit_diff": -3.3430614471435547,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 0.034320463783101364,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 58,
+          "faithfulness.circuit_patch": 58,
+          "faithfulness.corrupted_baseline": 58,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4676,
+        "passes_used": 324
+      },
+      "circuit": [
+        "L0H6",
+        "L2H4",
+        "L5H10"
+      ],
+      "circuit_patched_logit_diff": -3.553886651992798,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 0.0009801526996163772,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 60,
+          "faithfulness.circuit_patch": 60,
+          "faithfulness.corrupted_baseline": 60,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4670,
+        "passes_used": 330
+      },
+      "circuit": [
+        "L0H7",
+        "L0H8",
+        "L9H0"
+      ],
+      "circuit_patched_logit_diff": -3.4661595821380615,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 0.014853483459527302,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 62,
+          "faithfulness.circuit_patch": 62,
+          "faithfulness.corrupted_baseline": 62,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4664,
+        "passes_used": 336
+      },
+      "circuit": [
+        "L1H10",
+        "L2H2",
+        "L11H7"
+      ],
+      "circuit_patched_logit_diff": -3.572319269180298,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": -0.0019348175078286662,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 64,
+          "faithfulness.circuit_patch": 64,
+          "faithfulness.corrupted_baseline": 64,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4658,
+        "passes_used": 342
+      },
+      "circuit": [
+        "L1H11",
+        "L4H7",
+        "L4H11"
+      ],
+      "circuit_patched_logit_diff": -3.5605010986328125,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": -6.586885544813858e-05,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 66,
+          "faithfulness.circuit_patch": 66,
+          "faithfulness.corrupted_baseline": 66,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4652,
+        "passes_used": 348
+      },
+      "circuit": [
+        "L2H11",
+        "L4H9",
+        "L5H2"
+      ],
+      "circuit_patched_logit_diff": -3.559765338897705,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 5.048563105040502e-05,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 68,
+          "faithfulness.circuit_patch": 68,
+          "faithfulness.corrupted_baseline": 68,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4646,
+        "passes_used": 354
+      },
+      "circuit": [
+        "L3H3",
+        "L5H11",
+        "L7H3"
+      ],
+      "circuit_patched_logit_diff": -3.537224531173706,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 0.0036151331414301224,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 70,
+          "faithfulness.circuit_patch": 70,
+          "faithfulness.corrupted_baseline": 70,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4640,
+        "passes_used": 360
+      },
+      "circuit": [
+        "L4H2",
+        "L8H11",
+        "L11H7"
+      ],
+      "circuit_patched_logit_diff": -3.5005791187286377,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 0.00941031048549984,
+      "forward_passes": 6,
+      "n": 100
+    },
+    {
+      "budget_snapshot": {
+        "by_operation": {
+          "ablation.clean_baseline": 2,
+          "ablation.mean_head_replacement": 4,
+          "ablation.reference_cache_corrupted": 2,
+          "baseline.clean": 4,
+          "faithfulness.cache_clean": 72,
+          "faithfulness.circuit_patch": 72,
+          "faithfulness.corrupted_baseline": 72,
+          "patching.sweep.cache_clean": 10,
+          "patching.sweep.cache_corrupted": 10,
+          "patching.sweep.head_replacement": 22,
+          "path_patching.cache_clean": 16,
+          "path_patching.corrupted_baseline": 16,
+          "path_patching.receiver_evaluation": 48,
+          "path_patching.sender_bridge_cache": 16
+        },
+        "max_passes": 5000,
+        "passes_left": 4634,
+        "passes_used": 366
+      },
+      "circuit": [
+        "L4H8",
+        "L5H11",
+        "L9H6"
+      ],
+      "circuit_patched_logit_diff": -2.304349899291992,
+      "clean_logit_diff": 2.763347864151001,
+      "corrupted_logit_diff": -3.560084581375122,
+      "faithfulness": 0.19858434369320602,
+      "forward_passes": 6,
+      "n": 100
+    }
+  ],
+  "random_std": 0.05798068075264454,
+  "random_values": [
+    0.014830634846818904,
+    0.034320463783101364,
+    0.0009801526996163772,
+    0.014853483459527302,
+    -0.0019348175078286662,
+    -6.586885544813858e-05,
+    5.048563105040502e-05,
+    0.0036151331414301224,
+    0.00941031048549984,
+    0.19858434369320602
+  ],
+  "raw_results_path": "results/random_control_ioi-42-100_seed42_k3.json",
+  "seed": 42,
+  "status": "complete",
+  "task": "ioi"
+}

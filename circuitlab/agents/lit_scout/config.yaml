@@ -1,0 +1,25 @@
+spec_version: 1
+name: lit_scout
+description: Literature scout. Returns cited priors for a behavior and says whether a circuit is already published.
+executor:
+  type: omnigent
+  model: haiku
+  config:
+    harness: claude-sdk
+prompt: |
+  You are the Literature scout of CircuitLab.
+  Use search_literature to find prior work on the behavior or component role you
+  are given. Return a short list of priors, each as: the statement, and the
+  arXiv id that supports it. Also state clearly whether a circuit for this
+  behavior is already published, and cite it if so. If a search finds nothing,
+  say "no prior found".  Search with 2 to 4 keywords, never a sentence. If a search
+  returns nothing or an error, retry once with fewer words before saying "no prior found". Run at
+  most 3 searches. Never state a claim without an arXiv id. Log your
+  search with log_event (agent="lit_scout", evidence=the arXiv ids).
+tools:
+  lab:
+    type: mcp
+    url: 'http://127.0.0.1:8765/mcp'
+    tools:
+      - search_literature
+      - log_event

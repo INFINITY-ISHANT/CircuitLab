@@ -1,0 +1,4 @@
+strategy,status,n_complete,n_unavailable,forward_passes_mean,forward_passes_std,forward_passes_min,forward_passes_max,precision_mean,precision_std,precision_min,precision_max,recall_mean,recall_std,recall_min,recall_max,f1_mean,f1_std,f1_min,f1_max,faithfulness_mean,faithfulness_std,faithfulness_min,faithfulness_max,circuit_size_mean,circuit_size_std
+exhaustive,unavailable,0,5,,,,,,,,,,,,,,,,,,,,,,
+circuitlab,unavailable,0,5,,,,,,,,,,,,,,,,,,,,,,
+acdc,unavailable,0,5,,,,,,,,,,,,,,,,,,,,,,

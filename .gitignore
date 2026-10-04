@@ -1,0 +1,32 @@
+# python environments and caches
+.venv/
+venv/
+.uv-cache/
+.cuda-uv-cache/
+.model-cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# secrets (never commit keys)
+.env
+*.key
+
+# local run output (the result files cited in docs/RESULTS.md are tracked)
+results/runs.jsonl
+results/trajectories/
+claim_gate_debug.log
+*.log
+.streamlit/
+
+# model weights and archives
+*.pt
+*.pth
+*.safetensors
+*.zip
+
+# editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
